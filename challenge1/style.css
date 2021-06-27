@@ -1,0 +1,148 @@
+body{
+width: 1440px;
+background-color: #edf2f8 ;
+}
+.box{
+    align-items: center;
+    background-color: white;
+    height: 280px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.02);
+    z-index: 1;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.img1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 280px;
+    height: 280px;
+}
+.content{
+    padding: 35px;
+    align-content: initial;
+}
+.heading{
+    font-family: "Manrope", sans-serif;
+    color: #4E5765;
+    font-weight: 700;
+}
+p{
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+    color: #6D7F97;
+    font-weight: 500;
+}
+.box2{
+    display: flex;
+    margin-top: 15px;
+}
+.img2{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    
+}
+.my_name{
+    font-family: "Manrope", sans-serif;
+    color: #4E5765;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.date{
+    font-size: 13px;
+    font-family: "Manrope", sans-serif;
+    color: #9EAFC2;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.share{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #edf2f8;
+    margin-left: 120px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+}
+.share_icon{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5.5px;
+    height: 15px;
+    width: 17px;
+}
+.share:hover{
+    background-color: #6e8098;
+    transition: all ease 0.2s;
+}
+.share:hover .share_icon{
+    color: white;
+    transition: all ease 0.2s;
+    filter:  brightness(0) invert(1);
+
+}
+.share_menu{
+    background-color: #49556b;
+    width: 200px;
+    height: 50px;
+    border-radius: 5.5px;
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-43%);
+    transition: all ease 0.2s;
+}
+.share_menu a {
+    display: block;
+  }
+.share_menu p{
+    display:flex;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 10px;
+    padding: 12px;
+    font-family: "Manrope", sans-serif;
+    color:#9ca9bb;
+    text-transform: uppercase;
+    font-weight: 700px;
+    text-align: relative;
+}
+.share_menu:before{
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 10px solid #49556b;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+.share:hover .share_menu{
+    display:block;
+}
+.icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
